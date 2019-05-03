@@ -1,1 +1,22 @@
 // Mixins Here
+
+.buttons (@bg-color, @txt-color, @font-size, @width) {
+    background-color: @bg-color;
+    color: @txt-color;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: @font-size;
+    margin: 4px 2px;
+    width: @width;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: @txt-color;
+        color:  @bg-color;
+    }
+}
+
+.image-format (@border-rad, @width) {
+    border-radius: @border;
+    width: @width;
+}
