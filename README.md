@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+If you think of the page content like water, this is the best way to visualize "responsive we design" as it fills the size of the device screen. 
+
+Adaptive uses specific layouts for multiple screen sizes and requires more attention to the sizes you want to cater to.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+This means which direction to start designing from. When starting from mobile, you would need to use @media(min-width: 500px) so that it fits screens smaller than 500 pixels, and then build out the next size. 
+
+For desktop first, you would start with @media(max-width:100px) or a similar desktop size, and work your way down and set another max width at each size you want to format for. i.e. 800 px and 500 px.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+6.25% font size gives us a 16px font and allows rem units to be divisible by 10. As an example, using this font size in the html tag allows us to set a 24px font as 2.4rem.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is using a preprocessor to extend the functionality of CSS and compiles it into regular CSS. It allows us to use things like variables from other files and "compile" or combine them so that our regular CSS file reads them as normal. Normally, all our CSS needs to be done on 1 page in 1 file and it can get overwhelming with thousands of lines of code. Using preprocessing, it allows us to clean this up and make it easier to read as the next developer coming in, or for those who come after us.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concepts are the fact that this cleans up our CSS pages and make them look so much less intimidating and the fact that it breaks up different parts of the CSS up into folders so if I wanted to create a variable that's easy to use in multiple areas, I can create it in a separate folder as not to clutter my main CSS page more. 
+
+The part that gave me the most trouble was the parametric mixins, mainly for the fact that I had tended to be using different styles for each element in a lot of my pages and wasn't using repeated blocks of text or images. Once I started using examples of this, it seemed to click.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
