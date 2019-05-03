@@ -20,6 +20,24 @@
     display: flex;
     flex-wrap: wrap;
 
+    .blast {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .sky {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .launch {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
     @media @phone{
       .sky {
         display: none;
@@ -29,7 +47,6 @@
         display: none;
       }
     }
-
 
     img {
       width: 28%;
@@ -104,6 +121,10 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      &:hover {
+        transform: scale(1.1);
+      }
 
       @media @phone {
         display: block;
