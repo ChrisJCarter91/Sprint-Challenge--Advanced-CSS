@@ -203,9 +203,10 @@ footer {
   padding: 0 15px;
 }
 .home .space-images {
+  border-radius: 10px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 }
 @media only screen and (max-width: 500px) {
   .home .space-images .sky {
@@ -305,7 +306,7 @@ footer {
   }
 }
 .home .walk .walk-img img {
+  border-radius: 10px;
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
